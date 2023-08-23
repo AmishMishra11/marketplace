@@ -43,7 +43,7 @@ function Modal({ onClose, groupID }) {
   };
   return (
     <div
-      className="fixed top-0 right-0 left-0 bottom-0 bg-black bg-opacity-50  flex items-center justify-center z-20"
+      className="fixed top-0 right-0  lg:right-[calc(100vw-50rem)] left-0 bottom-0 bg-black bg-opacity-50  flex items-center justify-center z-20"
       onClick={() => onClose()}
     >
       <div
